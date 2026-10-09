@@ -1,16 +1,19 @@
-# Stromkreislabor
+# Stromkreislabor – elektrische Stromkreise
 
-Interaktive Lernseite zum eigenständigen Aufbau und Erkunden elektrischer Stromkreise.
+Interaktive Lernumgebung zum Verstehen, Bauen und Erproben elektrischer Stromkreise.
+
+## Bereiche
+
+- Lernen: Grundlagen des Stromkreises
+- Labor: Stromkreis selbst zusammenstellen
+- Experimente und Aufgaben bearbeiten
+- Wissen im Abschlusstest prüfen
+- Strom im Alltag entdecken
 
 ## Schnellstart
 
-1. Repository herunterladen oder klonen.
-2. `index.html` in einem aktuellen Browser öffnen.
+Repository herunterladen oder klonen und index.html in einem aktuellen Browser öffnen.
 
 ## Dokumentation
 
-- [Projektüberblick, Dateiaufbau, Entwicklung und Pflege](./docs/README.md)
-
-## Änderungen prüfen
-
-Funktionen und Darstellung nach jeder Änderung im Browser überprüfen. Offene Aufgaben stehen in der [Pflegedokumentation](./docs/README.md#pflege-und-offene-aufgaben).
+- [Lernpfad, Labor und Prüfung](./docs/README.md)
