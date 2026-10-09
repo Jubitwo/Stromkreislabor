@@ -1,85 +1,26 @@
 # Dokumentation: Stromkreislabor
 
-## Lernziel und Aufbau
+## Lernpfad
 
-Das Stromkreislabor führt Lernende vom Grundlagenwissen über das eigenständige Bauen von Stromkreisen zu Experimenten, Aufgaben und einem Abschlusstest. Ein eigener Bereich verknüpft die Inhalte mit Strom im Alltag.
+Die Anwendung führt von Grundlagen über das Bauen von Stromkreisen zu Experimenten, Aufgaben, Abschlusstest und Alltagsbezügen.
 
-## Bereiche der Anwendung
+## Dateiaufbau
 
-- **Lernen** – Grundlagen zu elektrischen Stromkreisen.
-- **Stromkreis bauen / Labor** – Bauteile anordnen und Stromkreisaufbau untersuchen; die Aufbau-Logik liegt teilweise in circuit-builder.js.
-- **Experimente** – Wirkungen und Veränderungen am Aufbau erproben.
-- **Aufgaben** – Verständnis durch Aufgaben anwenden.
-- **Abschlusstest** – Lernstand überprüfen.
-- **Strom im Alltag** – Alltagsbezüge herstellen.
+- [index.html](../index.html) – Navigation, Oberfläche und Lernbereiche.
+- [circuit-builder.js](../circuit-builder.js) – JavaScript-Logik des Stromkreis-Aufbaus.
 
-## Dateiaufbau und Start
+Die HTML-Datei lokal in einem aktuellen Browser öffnen. Änderungen am Labor mit beiden Dateien zusammen prüfen.
 
-- [index.html](../index.html) – Seitenstruktur und Lernpfad.
-- [circuit-builder.js](../circuit-builder.js) – Logik für den interaktiven Stromkreis-Aufbau.
+## Prüfung
 
-index.html kann in einem aktuellen Browser geöffnet werden. Bei lokalen Änderungen beide Dateien zusammen testen, da der Laborbereich JavaScript aus der separaten Datei nutzt.
+Lernnavigation, Labor, Experimente, Aufgaben und Abschlusstest durchgehen. Aufbauten und Rückmeldungen fachlich vergleichen; Browserkonsole und mobile Darstellung prüfen.
 
-## Prüfung nach Änderungen
+## Pflege
 
-- Lernnavigation, Labor, Experimente, Aufgaben und Abschlusstest durchgehen.
-- Bauteile im Labor hinzufügen, verbinden und entfernen; ungültige und vollständige Aufbauten prüfen.
-- Anzeigen und Rückmeldungen mit den dargestellten Schaltungen vergleichen.
-- JavaScript-Fehler in der Browserkonsole und mobile Darstellung kontrollieren.
+Issues mit Bereich, Schaltungsaufbau oder Versuchsfrage und erwartetem Ergebnis erfassen.
 
-## Pflege und offene Aufgaben
-
-Issues sollten den betroffenen Lernbereich und einen nachvollziehbaren Schaltungsaufbau enthalten.
-
-### Pflege-Checkliste
-
-- [ ] Schaltsymbole, Bauteile und fachliche Aussagen geprüft
-- [ ] Stromkreisverbindungen und Zustandswechsel getestet
+- [ ] Schaltsymbole und Aussagen fachlich geprüft
+- [ ] Zustandswechsel im Labor getestet
 - [ ] Aufgabenfeedback und Abschlusstest geprüft
-- [ ] index.html und circuit-builder.js gemeinsam getestet
-- [ ] Tastaturbedienung und schmale Bildschirme geprüft
-- [ ] Dokumentation aktualisiert
-
-### Issue-Vorlage
-
-- **Bereich:**
-- **Schaltungsaufbau/Versuchsfrage:**
-- **Erwartetes Verhalten oder Ergebnis:**
-- **Prüfschritte:**# Dokumentation: Stromkreislabor
-
-## Projektüberblick
-
-Interaktive Lernseite zum eigenständigen Aufbau und Erkunden elektrischer Stromkreise.
-
-## Architektur und Dateiaufbau
-
-`index.html` – Einstiegspunkt und Oberfläche.
-`circuit-builder.js` – ausgelagerte JavaScript-Datei für den Stromkreis-Aufbau.
-
-Die Anwendung wird als browserbasierte Seite gepflegt. Vor Änderungen an Schnittstellen zwischen Dateien deren bestehende Einbindung im Quelltext prüfen.
-
-## Entwicklung und Prüfung
-
-1. `index.html` in einem aktuellen Browser öffnen.
-2. Betroffene Abläufe und Eingaben vollständig durchspielen.
-3. Darstellung und Bedienbarkeit auf schmalen Bildschirmen prüfen.
-4. Prüfergebnis in Commit oder Pull Request notieren.
-
-## Pflege und offene Aufgaben
-
-Aufgaben im GitHub-Issue-Tracker mit Ziel, betroffenen Dateien, erwartetem Ergebnis und Prüfschritten erfassen.
-
-### Pflege-Checkliste
-
-- [ ] Inhalt und Funktion fachlich geprüft
-- [ ] Eingaben, Rückmeldungen und Fehlerzustände geprüft
-- [ ] Tastaturbedienung und mobile Darstellung geprüft
-- [ ] Änderungen im Browser getestet
-- [ ] Dokumentation aktualisiert
-
-### Issue-Vorlage
-
-- **Ziel:**
-- **Betroffene Dateien/Funktion:**
-- **Erwartetes Ergebnis:**
-- **Prüfschritte:**
+- [ ] HTML und JavaScript gemeinsam getestet
+- [ ] Tastatur- und Mobilbedienung geprüft
