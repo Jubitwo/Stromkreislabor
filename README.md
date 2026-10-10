@@ -6,7 +6,11 @@ Interaktive Lernumgebung zum Verstehen, Bauen und Erproben elektrischer Stromkre
 
 Lernen, Stromkreis-Labor, Experimente, Aufgaben, Abschlusstest und Strom im Alltag.
 
-## Schnellstart
+## Online öffnen
+
+[Stromkreislabor](https://jubitwo.github.io/Stromkreislabor/)
+
+## Lokal starten
 
 Repository herunterladen oder klonen und [index.html](./index.html) in einem aktuellen Browser öffnen.
 
